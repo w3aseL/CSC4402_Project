@@ -1,6 +1,5 @@
 CREATE TABLE Contributor (
-    id INT NOT NULL,
+    id INTEGER NOT NULL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
-    profession VARCHAR(255) NOT NULL,
-    PRIMARY KEY (id)
+    profession VARCHAR(255) NOT NULL
 );
